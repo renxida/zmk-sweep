@@ -37,9 +37,4 @@ cp $TEMP_DIR/*right-nice_nano*.uf2 "/media/$USER/NICENANO/"
 
 # Step 6: Cleanup
 rm -rf $TEMP_DIR
-<<<<<<< HEAD
-rm ~/Downloads/firmware.zip
-=======
->>>>>>> 0f3df3a9726914b3f7e21bb76cd162260e290847
-
 echo "Script executed successfully."
