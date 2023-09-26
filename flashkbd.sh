@@ -36,5 +36,5 @@ done
 cp $TEMP_DIR/*right-nice_nano*.uf2 "/media/$USER/NICENANO/"
 
 # Step 6: Cleanup
-rm -rf $TEMP_DIR
+rm -rf $TEMP_DIR/
 echo "Script executed successfully."
