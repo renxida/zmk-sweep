@@ -11,7 +11,7 @@
 
 / {
     behaviors {
-        ht: hold_tap {
+        ht: hold_tap_ht {
             label = "hold_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -22,7 +22,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        hml: hold_tap {
+        hml: hold_tap_hml {
             label = "hml";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -35,7 +35,7 @@
             hold-trigger-on-release;
         };
 
-        hmr: hold_tap {
+        hmr: hold_tap_hmr {
             label = "hmr";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
