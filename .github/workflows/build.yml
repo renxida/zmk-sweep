@@ -47,4 +47,5 @@ jobs:
           prerelease: false
           title: "Release ${{ env.NEW_TAG }}"
           files: |
-            /home/runner/work/zmk-config/zmk-config/*
+            ${{ github.workspace }}/firmware/*
+      
